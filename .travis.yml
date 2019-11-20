@@ -1,5 +1,7 @@
 language: node_js
 node_js:
   - 12
-before_install: curl -fsSL https://deno.land/x/install/install.sh | sh
+before_install:
+  - curl -fsSL https://deno.land/x/install/install.sh | sh
+  - sudo ln -sv $HOME/.deno/bin/deno /usr/local/bin
 script: bash test.sh
