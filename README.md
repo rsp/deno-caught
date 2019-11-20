@@ -2,7 +2,7 @@ deno caught
 ===========
 
 This module lets you attach empty rejcetion handlers to promises
-to avoid error when we want to handle rejections asyncronously.
+to avoid error when we want to handle rejections asynchronously.
 
 It is a port of caught for Node, see: https://github.com/rsp/node-caught
 
@@ -44,7 +44,7 @@ For more info see this answer on Stack Overflow:
 Usage
 -----
 ```ts
-import { caught } from ... XXX
+import { caught } from 'https://raw.githubusercontent.com/rsp/deno-caught/master/mod.ts';
 
 const p = caught(Promise.reject(0));
 ```
@@ -73,7 +73,7 @@ Author
 
 Contributors
 ------------
-* [Wil Lee](https://github.com/kourge) (added TypeScript support in caught for Node [PR #1](https://github.com/rsp/deno-caught/pull/1))
+* [Wil Lee](https://github.com/kourge) (added TypeScript support in the original [caught](https://github.com/rsp/node-caught) for Node [PR #1](https://github.com/rsp/deno-caught/pull/1))
 
 License
 -------
