@@ -1,4 +1,3 @@
 'use strict';
 
-module.exports = (f => p => (p.catch(f), p))(() => {});
-
+export const caught = (f => p => (p.catch(f), p))(() => {});
