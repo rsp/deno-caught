@@ -44,7 +44,7 @@ For more info see this answer on Stack Overflow:
 Usage
 -----
 ```ts
-import { caught } from 'https://raw.githubusercontent.com/rsp/deno-caught/master/mod.ts';
+import { caught } from 'https://deno.land/x/caught/mod.ts';
 
 const p = caught(Promise.reject(0));
 ```
